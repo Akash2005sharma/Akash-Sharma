@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-attachment:local;
+    color: rgb(11, 0, 0);
+}
+.sqro{
+    transition: transform 2s;
+}
+.sqro:hover{
+    transform: rotate(180deg);
+}
+hr{
+    width: 10;
+    height: 3px;
+    background-color: red;
+}
+.usefull{
+    border: 2px solid;
+    border-color: rgb(14, 13, 107);
+    margin: 0px;
+    background-color: rgb(1, 255,6);
+    width: 30%;
+    /* width: 100vh; */
+    float: left;
+}
+#right{
+    width: 50%;
+    float: right;
+}
+.usefull a{
+    color: rgb(40, 20, 220);
+    font-style: italic;
+    
+}
+
+/* darkmode css */
+.dark-mode {
+    background-color: rgb(4, 1, 50);
+    background-attachment:local;
+    color: rgb(244, 244, 244);
+    
+}
+
+
+.azebmode{
+    background-color: rgb(0, 255, 238);
+    color: crimson;
+}
+.center{
+    border-radius: 0px;
+    border-color: blue;
+    background-color: rgb(83, 140, 224);
+    box-sizing: border-box;
+    margin-inline: 20%;
+    text-align: center;
+    /* float: none; */
+    /* width: 70%; */
+}
